@@ -52,11 +52,11 @@ namespace StudentGradeApplication
             this.math_label = new System.Windows.Forms.Label();
             this.next_button3 = new System.Windows.Forms.PictureBox();
             this.back_button2 = new System.Windows.Forms.PictureBox();
-            this.fourth_panel = new System.Windows.Forms.Panel();
             this.pass_or_fail = new System.Windows.Forms.PictureBox();
             this.first_text_average = new System.Windows.Forms.Label();
             this.second_text_average = new System.Windows.Forms.Label();
             this.again_button = new System.Windows.Forms.PictureBox();
+            this.fourth_panel = new System.Windows.Forms.Panel();
             this.first_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.welcome_screen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.next_button1)).BeginInit();
@@ -68,9 +68,9 @@ namespace StudentGradeApplication
             this.third_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.next_button3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.back_button2)).BeginInit();
-            this.fourth_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pass_or_fail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.again_button)).BeginInit();
+            this.fourth_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // first_panel
@@ -435,19 +435,6 @@ namespace StudentGradeApplication
             this.back_button2.TabIndex = 12;
             this.back_button2.TabStop = false;
             // 
-            // fourth_panel
-            // 
-            this.fourth_panel.BackgroundImage = global::StudentGradeApplication.Properties.Resources.bg1;
-            this.fourth_panel.Controls.Add(this.again_button);
-            this.fourth_panel.Controls.Add(this.second_text_average);
-            this.fourth_panel.Controls.Add(this.first_text_average);
-            this.fourth_panel.Controls.Add(this.pass_or_fail);
-            this.fourth_panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fourth_panel.Location = new System.Drawing.Point(0, 0);
-            this.fourth_panel.Name = "fourth_panel";
-            this.fourth_panel.Size = new System.Drawing.Size(334, 561);
-            this.fourth_panel.TabIndex = 13;
-            // 
             // pass_or_fail
             // 
             this.pass_or_fail.BackColor = System.Drawing.Color.Transparent;
@@ -494,6 +481,19 @@ namespace StudentGradeApplication
             this.again_button.TabIndex = 3;
             this.again_button.TabStop = false;
             // 
+            // fourth_panel
+            // 
+            this.fourth_panel.BackgroundImage = global::StudentGradeApplication.Properties.Resources.bg1;
+            this.fourth_panel.Controls.Add(this.again_button);
+            this.fourth_panel.Controls.Add(this.second_text_average);
+            this.fourth_panel.Controls.Add(this.first_text_average);
+            this.fourth_panel.Controls.Add(this.pass_or_fail);
+            this.fourth_panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fourth_panel.Location = new System.Drawing.Point(0, 0);
+            this.fourth_panel.Name = "fourth_panel";
+            this.fourth_panel.Size = new System.Drawing.Size(334, 561);
+            this.fourth_panel.TabIndex = 13;
+            // 
             // StudentGradeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -516,9 +516,9 @@ namespace StudentGradeApplication
             this.third_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.next_button3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.back_button2)).EndInit();
-            this.fourth_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pass_or_fail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.again_button)).EndInit();
+            this.fourth_panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
