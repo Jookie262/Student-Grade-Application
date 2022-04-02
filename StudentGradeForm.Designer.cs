@@ -52,6 +52,11 @@ namespace StudentGradeApplication
             this.math_label = new System.Windows.Forms.Label();
             this.next_button3 = new System.Windows.Forms.PictureBox();
             this.back_button2 = new System.Windows.Forms.PictureBox();
+            this.fourth_panel = new System.Windows.Forms.Panel();
+            this.pass_or_fail = new System.Windows.Forms.PictureBox();
+            this.first_text_average = new System.Windows.Forms.Label();
+            this.second_text_average = new System.Windows.Forms.Label();
+            this.again_button = new System.Windows.Forms.PictureBox();
             this.first_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.welcome_screen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.next_button1)).BeginInit();
@@ -63,6 +68,9 @@ namespace StudentGradeApplication
             this.third_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.next_button3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.back_button2)).BeginInit();
+            this.fourth_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pass_or_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.again_button)).BeginInit();
             this.SuspendLayout();
             // 
             // first_panel
@@ -225,6 +233,7 @@ namespace StudentGradeApplication
             // third_panel
             // 
             this.third_panel.BackgroundImage = global::StudentGradeApplication.Properties.Resources.bg2;
+            this.third_panel.Controls.Add(this.fourth_panel);
             this.third_panel.Controls.Add(this.back_button2);
             this.third_panel.Controls.Add(this.next_button3);
             this.third_panel.Controls.Add(this.history_textbox);
@@ -426,6 +435,65 @@ namespace StudentGradeApplication
             this.back_button2.TabIndex = 12;
             this.back_button2.TabStop = false;
             // 
+            // fourth_panel
+            // 
+            this.fourth_panel.BackgroundImage = global::StudentGradeApplication.Properties.Resources.bg1;
+            this.fourth_panel.Controls.Add(this.again_button);
+            this.fourth_panel.Controls.Add(this.second_text_average);
+            this.fourth_panel.Controls.Add(this.first_text_average);
+            this.fourth_panel.Controls.Add(this.pass_or_fail);
+            this.fourth_panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fourth_panel.Location = new System.Drawing.Point(0, 0);
+            this.fourth_panel.Name = "fourth_panel";
+            this.fourth_panel.Size = new System.Drawing.Size(334, 561);
+            this.fourth_panel.TabIndex = 13;
+            // 
+            // pass_or_fail
+            // 
+            this.pass_or_fail.BackColor = System.Drawing.Color.Transparent;
+            this.pass_or_fail.Image = global::StudentGradeApplication.Properties.Resources.pass;
+            this.pass_or_fail.Location = new System.Drawing.Point(5, 204);
+            this.pass_or_fail.Name = "pass_or_fail";
+            this.pass_or_fail.Size = new System.Drawing.Size(328, 71);
+            this.pass_or_fail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pass_or_fail.TabIndex = 0;
+            this.pass_or_fail.TabStop = false;
+            // 
+            // first_text_average
+            // 
+            this.first_text_average.BackColor = System.Drawing.Color.Transparent;
+            this.first_text_average.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.first_text_average.ForeColor = System.Drawing.Color.White;
+            this.first_text_average.Location = new System.Drawing.Point(3, 300);
+            this.first_text_average.Name = "first_text_average";
+            this.first_text_average.Size = new System.Drawing.Size(328, 23);
+            this.first_text_average.TabIndex = 1;
+            this.first_text_average.Text = "The general average of";
+            this.first_text_average.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // second_text_average
+            // 
+            this.second_text_average.BackColor = System.Drawing.Color.Transparent;
+            this.second_text_average.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.second_text_average.ForeColor = System.Drawing.Color.White;
+            this.second_text_average.Location = new System.Drawing.Point(-1, 324);
+            this.second_text_average.Name = "second_text_average";
+            this.second_text_average.Size = new System.Drawing.Size(328, 23);
+            this.second_text_average.TabIndex = 2;
+            this.second_text_average.Text = "Paul Jolou Barrientos is 88.86";
+            this.second_text_average.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // again_button
+            // 
+            this.again_button.BackColor = System.Drawing.Color.Transparent;
+            this.again_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.again_button.Image = global::StudentGradeApplication.Properties.Resources.again;
+            this.again_button.Location = new System.Drawing.Point(75, 361);
+            this.again_button.Name = "again_button";
+            this.again_button.Size = new System.Drawing.Size(186, 85);
+            this.again_button.TabIndex = 3;
+            this.again_button.TabStop = false;
+            // 
             // StudentGradeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -448,6 +516,9 @@ namespace StudentGradeApplication
             this.third_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.next_button3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.back_button2)).EndInit();
+            this.fourth_panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pass_or_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.again_button)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -476,6 +547,11 @@ namespace StudentGradeApplication
         private System.Windows.Forms.Label math_label;
         private System.Windows.Forms.PictureBox next_button3;
         private System.Windows.Forms.PictureBox back_button2;
+        private System.Windows.Forms.Panel fourth_panel;
+        private System.Windows.Forms.PictureBox again_button;
+        private System.Windows.Forms.Label second_text_average;
+        private System.Windows.Forms.Label first_text_average;
+        private System.Windows.Forms.PictureBox pass_or_fail;
     }
 }
 
