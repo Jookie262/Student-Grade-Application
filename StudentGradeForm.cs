@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
+using System.IO;
 
 namespace StudentGradeApplication
 {
@@ -71,6 +72,13 @@ namespace StudentGradeApplication
                 e.Handled = true;
         }
 
+        // Method for fetching double in 5 subjects textbox 
+        // Additionally validates if it is either null or empty, returns 0 if so
+        public double getDoubleInTextBox(Guna.UI2.WinForms.Guna2TextBox texbox)
+        {
+            return String.IsNullOrEmpty(texbox.Text) ? 0 : Double.Parse(texbox.Text);
+        }
+
         // Return the average of the 5 subjects
         public double getAverage()
         {
@@ -86,14 +94,13 @@ namespace StudentGradeApplication
         // Check is the student passed or not, then change the image
         public void passOrFail()
         {
+            // Get the Directory of the Project
+            string location = Directory.GetParent(Environment.CurrentDirectory).Parent.FullName;
+
             if (getAverage() >= 75.00)
-            {
-                pass_or_fail.Image = Image.FromFile(System.Environment.CurrentDirectory + "\\" + "assets\\pass.png");
-            }
+                pass_or_fail.Image = Image.FromFile(location + "\\" + "assets\\pass.png");
             else
-            {
-                pass_or_fail.Image = Image.FromFile(System.Environment.CurrentDirectory + "\\" + "assets\\failed.png");
-            }
+                pass_or_fail.Image = Image.FromFile(location + "\\" + "assets\\failed.png");
 
             second_text_average.Text = nameAverage();
         }
@@ -128,11 +135,12 @@ namespace StudentGradeApplication
         private void next_button3_Click(object sender, EventArgs e)
         {
             // Get the value of each subject
-            english = String.IsNullOrEmpty(english_textbox.Text) ? 0 : Double.Parse(english_textbox.Text);
-            math = String.IsNullOrEmpty(math_textbox.Text) ? 0 : Double.Parse(math_textbox.Text);
-            science = String.IsNullOrEmpty(science_textbox.Text) ? 0 : Double.Parse(science_textbox.Text);
-            filipino = String.IsNullOrEmpty(filipino_textbox.Text) ? 0 : Double.Parse(filipino_textbox.Text);
-            history = String.IsNullOrEmpty(history_textbox.Text) ? 0 : Double.Parse(history_textbox.Text);
+            english = getDoubleInTextBox(english_textbox);
+            math = getDoubleInTextBox(math_textbox);
+            science = getDoubleInTextBox(science_textbox);
+            filipino = getDoubleInTextBox(filipino_textbox);
+            history = getDoubleInTextBox(history_textbox);
+
             passOrFail();
             showPanel(4); 
         }

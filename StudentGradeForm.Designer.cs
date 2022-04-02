@@ -31,46 +31,46 @@ namespace StudentGradeApplication
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentGradeForm));
             this.first_panel = new System.Windows.Forms.Panel();
-            this.welcome_screen = new System.Windows.Forms.PictureBox();
-            this.next_button1 = new System.Windows.Forms.PictureBox();
             this.second_panel = new System.Windows.Forms.Panel();
-            this.back_button1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.name_textbox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.next_button2 = new System.Windows.Forms.PictureBox();
-            this.grades_label = new System.Windows.Forms.PictureBox();
-            this.english_label = new System.Windows.Forms.Label();
-            this.english_textbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.third_panel = new System.Windows.Forms.Panel();
-            this.science_textbox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.science_label = new System.Windows.Forms.Label();
-            this.filipino_textbox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.filipino_label = new System.Windows.Forms.Label();
+            this.fourth_panel = new System.Windows.Forms.Panel();
+            this.again_button = new System.Windows.Forms.PictureBox();
+            this.second_text_average = new System.Windows.Forms.Label();
+            this.first_text_average = new System.Windows.Forms.Label();
+            this.pass_or_fail = new System.Windows.Forms.PictureBox();
+            this.back_button2 = new System.Windows.Forms.PictureBox();
+            this.next_button3 = new System.Windows.Forms.PictureBox();
             this.history_textbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.history_label = new System.Windows.Forms.Label();
+            this.filipino_textbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.filipino_label = new System.Windows.Forms.Label();
+            this.science_textbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.science_label = new System.Windows.Forms.Label();
             this.math_textbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.math_label = new System.Windows.Forms.Label();
-            this.next_button3 = new System.Windows.Forms.PictureBox();
-            this.back_button2 = new System.Windows.Forms.PictureBox();
-            this.pass_or_fail = new System.Windows.Forms.PictureBox();
-            this.first_text_average = new System.Windows.Forms.Label();
-            this.second_text_average = new System.Windows.Forms.Label();
-            this.again_button = new System.Windows.Forms.PictureBox();
-            this.fourth_panel = new System.Windows.Forms.Panel();
+            this.english_textbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.english_label = new System.Windows.Forms.Label();
+            this.grades_label = new System.Windows.Forms.PictureBox();
+            this.next_button2 = new System.Windows.Forms.PictureBox();
+            this.name_textbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.back_button1 = new System.Windows.Forms.PictureBox();
+            this.next_button1 = new System.Windows.Forms.PictureBox();
+            this.welcome_screen = new System.Windows.Forms.PictureBox();
             this.first_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.welcome_screen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.next_button1)).BeginInit();
             this.second_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.back_button1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.next_button2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grades_label)).BeginInit();
             this.third_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.next_button3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.back_button2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pass_or_fail)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.again_button)).BeginInit();
             this.fourth_panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.again_button)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pass_or_fail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back_button2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.next_button3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grades_label)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.next_button2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back_button1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.next_button1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.welcome_screen)).BeginInit();
             this.SuspendLayout();
             // 
             // first_panel
@@ -83,28 +83,6 @@ namespace StudentGradeApplication
             this.first_panel.Name = "first_panel";
             this.first_panel.Size = new System.Drawing.Size(334, 561);
             this.first_panel.TabIndex = 0;
-            // 
-            // welcome_screen
-            // 
-            this.welcome_screen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.welcome_screen.Image = global::StudentGradeApplication.Properties.Resources.opening;
-            this.welcome_screen.Location = new System.Drawing.Point(0, 0);
-            this.welcome_screen.Name = "welcome_screen";
-            this.welcome_screen.Size = new System.Drawing.Size(334, 561);
-            this.welcome_screen.TabIndex = 0;
-            this.welcome_screen.TabStop = false;
-            // 
-            // next_button1
-            // 
-            this.next_button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.next_button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.next_button1.Image = ((System.Drawing.Image)(resources.GetObject("next_button1.Image")));
-            this.next_button1.Location = new System.Drawing.Point(42, 367);
-            this.next_button1.Name = "next_button1";
-            this.next_button1.Size = new System.Drawing.Size(184, 80);
-            this.next_button1.TabIndex = 1;
-            this.next_button1.TabStop = false;
-            this.next_button1.Click += new System.EventHandler(this.next_button1_Click);
             // 
             // second_panel
             // 
@@ -119,120 +97,6 @@ namespace StudentGradeApplication
             this.second_panel.Name = "second_panel";
             this.second_panel.Size = new System.Drawing.Size(334, 561);
             this.second_panel.TabIndex = 2;
-            // 
-            // back_button1
-            // 
-            this.back_button1.BackColor = System.Drawing.Color.Transparent;
-            this.back_button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.back_button1.Image = global::StudentGradeApplication.Properties.Resources.back;
-            this.back_button1.Location = new System.Drawing.Point(32, 96);
-            this.back_button1.Name = "back_button1";
-            this.back_button1.Size = new System.Drawing.Size(75, 54);
-            this.back_button1.TabIndex = 0;
-            this.back_button1.TabStop = false;
-            this.back_button1.Click += new System.EventHandler(this.back_button1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::StudentGradeApplication.Properties.Resources.name;
-            this.pictureBox2.Location = new System.Drawing.Point(32, 176);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(215, 92);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // name_textbox
-            // 
-            this.name_textbox.BackColor = System.Drawing.Color.Transparent;
-            this.name_textbox.BorderRadius = 25;
-            this.name_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.name_textbox.DefaultText = "";
-            this.name_textbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.name_textbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.name_textbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.name_textbox.DisabledState.Parent = this.name_textbox;
-            this.name_textbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.name_textbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.name_textbox.FocusedState.Parent = this.name_textbox;
-            this.name_textbox.Font = new System.Drawing.Font("Gadugi", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(84)))), ((int)(((byte)(82)))));
-            this.name_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.name_textbox.HoverState.Parent = this.name_textbox;
-            this.name_textbox.Location = new System.Drawing.Point(32, 260);
-            this.name_textbox.Margin = new System.Windows.Forms.Padding(13, 3, 3, 3);
-            this.name_textbox.Name = "name_textbox";
-            this.name_textbox.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.name_textbox.PasswordChar = '\0';
-            this.name_textbox.PlaceholderText = "";
-            this.name_textbox.SelectedText = "";
-            this.name_textbox.ShadowDecoration.Parent = this.name_textbox;
-            this.name_textbox.Size = new System.Drawing.Size(271, 50);
-            this.name_textbox.TabIndex = 2;
-            this.name_textbox.TextOffset = new System.Drawing.Point(15, 0);
-            // 
-            // next_button2
-            // 
-            this.next_button2.BackColor = System.Drawing.Color.Transparent;
-            this.next_button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.next_button2.Image = global::StudentGradeApplication.Properties.Resources.NEXT;
-            this.next_button2.Location = new System.Drawing.Point(21, 328);
-            this.next_button2.Name = "next_button2";
-            this.next_button2.Size = new System.Drawing.Size(184, 87);
-            this.next_button2.TabIndex = 3;
-            this.next_button2.TabStop = false;
-            this.next_button2.Click += new System.EventHandler(this.next_button2_Click);
-            // 
-            // grades_label
-            // 
-            this.grades_label.BackColor = System.Drawing.Color.Transparent;
-            this.grades_label.Image = global::StudentGradeApplication.Properties.Resources.grades;
-            this.grades_label.Location = new System.Drawing.Point(57, 26);
-            this.grades_label.Name = "grades_label";
-            this.grades_label.Size = new System.Drawing.Size(221, 82);
-            this.grades_label.TabIndex = 0;
-            this.grades_label.TabStop = false;
-            // 
-            // english_label
-            // 
-            this.english_label.AutoSize = true;
-            this.english_label.BackColor = System.Drawing.Color.Transparent;
-            this.english_label.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.english_label.ForeColor = System.Drawing.Color.White;
-            this.english_label.Location = new System.Drawing.Point(52, 97);
-            this.english_label.Name = "english_label";
-            this.english_label.Size = new System.Drawing.Size(83, 25);
-            this.english_label.TabIndex = 1;
-            this.english_label.Text = "English";
-            // 
-            // english_textbox
-            // 
-            this.english_textbox.BackColor = System.Drawing.Color.Transparent;
-            this.english_textbox.BorderRadius = 18;
-            this.english_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.english_textbox.DefaultText = "";
-            this.english_textbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.english_textbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.english_textbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.english_textbox.DisabledState.Parent = this.english_textbox;
-            this.english_textbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.english_textbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.english_textbox.FocusedState.Parent = this.english_textbox;
-            this.english_textbox.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.english_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.english_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.english_textbox.HoverState.Parent = this.english_textbox;
-            this.english_textbox.Location = new System.Drawing.Point(52, 127);
-            this.english_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.english_textbox.Name = "english_textbox";
-            this.english_textbox.PasswordChar = '\0';
-            this.english_textbox.PlaceholderText = "";
-            this.english_textbox.SelectedText = "";
-            this.english_textbox.ShadowDecoration.Parent = this.english_textbox;
-            this.english_textbox.Size = new System.Drawing.Size(221, 38);
-            this.english_textbox.TabIndex = 2;
-            this.english_textbox.TextOffset = new System.Drawing.Point(10, 0);
-            this.english_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.english_textbox_KeyPress);
             // 
             // third_panel
             // 
@@ -257,87 +121,89 @@ namespace StudentGradeApplication
             this.third_panel.Size = new System.Drawing.Size(334, 561);
             this.third_panel.TabIndex = 4;
             // 
-            // science_textbox
+            // fourth_panel
             // 
-            this.science_textbox.BackColor = System.Drawing.Color.Transparent;
-            this.science_textbox.BorderRadius = 18;
-            this.science_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.science_textbox.DefaultText = "";
-            this.science_textbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.science_textbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.science_textbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.science_textbox.DisabledState.Parent = this.science_textbox;
-            this.science_textbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.science_textbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.science_textbox.FocusedState.Parent = this.science_textbox;
-            this.science_textbox.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.science_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.science_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.science_textbox.HoverState.Parent = this.science_textbox;
-            this.science_textbox.Location = new System.Drawing.Point(52, 277);
-            this.science_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.science_textbox.Name = "science_textbox";
-            this.science_textbox.PasswordChar = '\0';
-            this.science_textbox.PlaceholderText = "";
-            this.science_textbox.SelectedText = "";
-            this.science_textbox.ShadowDecoration.Parent = this.science_textbox;
-            this.science_textbox.Size = new System.Drawing.Size(221, 38);
-            this.science_textbox.TabIndex = 6;
-            this.science_textbox.TextOffset = new System.Drawing.Point(10, 0);
-            this.science_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.science_textbox_KeyPress);
+            this.fourth_panel.BackgroundImage = global::StudentGradeApplication.Properties.Resources.bg1;
+            this.fourth_panel.Controls.Add(this.again_button);
+            this.fourth_panel.Controls.Add(this.second_text_average);
+            this.fourth_panel.Controls.Add(this.first_text_average);
+            this.fourth_panel.Controls.Add(this.pass_or_fail);
+            this.fourth_panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fourth_panel.Location = new System.Drawing.Point(0, 0);
+            this.fourth_panel.Name = "fourth_panel";
+            this.fourth_panel.Size = new System.Drawing.Size(334, 561);
+            this.fourth_panel.TabIndex = 13;
             // 
-            // science_label
+            // again_button
             // 
-            this.science_label.AutoSize = true;
-            this.science_label.BackColor = System.Drawing.Color.Transparent;
-            this.science_label.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.science_label.ForeColor = System.Drawing.Color.White;
-            this.science_label.Location = new System.Drawing.Point(52, 247);
-            this.science_label.Name = "science_label";
-            this.science_label.Size = new System.Drawing.Size(85, 25);
-            this.science_label.TabIndex = 5;
-            this.science_label.Text = "Science";
+            this.again_button.BackColor = System.Drawing.Color.Transparent;
+            this.again_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.again_button.Image = global::StudentGradeApplication.Properties.Resources.again;
+            this.again_button.Location = new System.Drawing.Point(75, 361);
+            this.again_button.Name = "again_button";
+            this.again_button.Size = new System.Drawing.Size(186, 85);
+            this.again_button.TabIndex = 3;
+            this.again_button.TabStop = false;
+            this.again_button.Click += new System.EventHandler(this.again_button_Click);
             // 
-            // filipino_textbox
+            // second_text_average
             // 
-            this.filipino_textbox.BackColor = System.Drawing.Color.Transparent;
-            this.filipino_textbox.BorderRadius = 18;
-            this.filipino_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.filipino_textbox.DefaultText = "";
-            this.filipino_textbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.filipino_textbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.filipino_textbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.filipino_textbox.DisabledState.Parent = this.filipino_textbox;
-            this.filipino_textbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.filipino_textbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.filipino_textbox.FocusedState.Parent = this.filipino_textbox;
-            this.filipino_textbox.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.filipino_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
-            this.filipino_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.filipino_textbox.HoverState.Parent = this.filipino_textbox;
-            this.filipino_textbox.Location = new System.Drawing.Point(52, 352);
-            this.filipino_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.filipino_textbox.Name = "filipino_textbox";
-            this.filipino_textbox.PasswordChar = '\0';
-            this.filipino_textbox.PlaceholderText = "";
-            this.filipino_textbox.SelectedText = "";
-            this.filipino_textbox.ShadowDecoration.Parent = this.filipino_textbox;
-            this.filipino_textbox.Size = new System.Drawing.Size(221, 38);
-            this.filipino_textbox.TabIndex = 8;
-            this.filipino_textbox.TextOffset = new System.Drawing.Point(10, 0);
-            this.filipino_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.filipino_textbox_KeyPress);
+            this.second_text_average.BackColor = System.Drawing.Color.Transparent;
+            this.second_text_average.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.second_text_average.ForeColor = System.Drawing.Color.White;
+            this.second_text_average.Location = new System.Drawing.Point(-1, 324);
+            this.second_text_average.Name = "second_text_average";
+            this.second_text_average.Size = new System.Drawing.Size(328, 23);
+            this.second_text_average.TabIndex = 2;
+            this.second_text_average.Text = "Paul Jolou Barrientos is 88.86";
+            this.second_text_average.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // filipino_label
+            // first_text_average
             // 
-            this.filipino_label.AutoSize = true;
-            this.filipino_label.BackColor = System.Drawing.Color.Transparent;
-            this.filipino_label.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.filipino_label.ForeColor = System.Drawing.Color.White;
-            this.filipino_label.Location = new System.Drawing.Point(52, 322);
-            this.filipino_label.Name = "filipino_label";
-            this.filipino_label.Size = new System.Drawing.Size(86, 25);
-            this.filipino_label.TabIndex = 7;
-            this.filipino_label.Text = "Filipino";
+            this.first_text_average.BackColor = System.Drawing.Color.Transparent;
+            this.first_text_average.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.first_text_average.ForeColor = System.Drawing.Color.White;
+            this.first_text_average.Location = new System.Drawing.Point(3, 300);
+            this.first_text_average.Name = "first_text_average";
+            this.first_text_average.Size = new System.Drawing.Size(328, 23);
+            this.first_text_average.TabIndex = 1;
+            this.first_text_average.Text = "The general average of";
+            this.first_text_average.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pass_or_fail
+            // 
+            this.pass_or_fail.BackColor = System.Drawing.Color.Transparent;
+            this.pass_or_fail.Image = global::StudentGradeApplication.Properties.Resources.pass;
+            this.pass_or_fail.Location = new System.Drawing.Point(5, 204);
+            this.pass_or_fail.Name = "pass_or_fail";
+            this.pass_or_fail.Size = new System.Drawing.Size(328, 71);
+            this.pass_or_fail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pass_or_fail.TabIndex = 0;
+            this.pass_or_fail.TabStop = false;
+            // 
+            // back_button2
+            // 
+            this.back_button2.BackColor = System.Drawing.Color.Transparent;
+            this.back_button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.back_button2.Image = global::StudentGradeApplication.Properties.Resources.back;
+            this.back_button2.Location = new System.Drawing.Point(3, 4);
+            this.back_button2.Name = "back_button2";
+            this.back_button2.Size = new System.Drawing.Size(67, 58);
+            this.back_button2.TabIndex = 12;
+            this.back_button2.TabStop = false;
+            this.back_button2.Click += new System.EventHandler(this.back_button2_Click);
+            // 
+            // next_button3
+            // 
+            this.next_button3.BackColor = System.Drawing.Color.Transparent;
+            this.next_button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.next_button3.Image = global::StudentGradeApplication.Properties.Resources.NEXT;
+            this.next_button3.Location = new System.Drawing.Point(68, 475);
+            this.next_button3.Name = "next_button3";
+            this.next_button3.Size = new System.Drawing.Size(179, 80);
+            this.next_button3.TabIndex = 11;
+            this.next_button3.TabStop = false;
+            this.next_button3.Click += new System.EventHandler(this.next_button3_Click);
             // 
             // history_textbox
             // 
@@ -380,6 +246,88 @@ namespace StudentGradeApplication
             this.history_label.TabIndex = 9;
             this.history_label.Text = "History";
             // 
+            // filipino_textbox
+            // 
+            this.filipino_textbox.BackColor = System.Drawing.Color.Transparent;
+            this.filipino_textbox.BorderRadius = 18;
+            this.filipino_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.filipino_textbox.DefaultText = "";
+            this.filipino_textbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.filipino_textbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.filipino_textbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.filipino_textbox.DisabledState.Parent = this.filipino_textbox;
+            this.filipino_textbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.filipino_textbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.filipino_textbox.FocusedState.Parent = this.filipino_textbox;
+            this.filipino_textbox.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filipino_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.filipino_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.filipino_textbox.HoverState.Parent = this.filipino_textbox;
+            this.filipino_textbox.Location = new System.Drawing.Point(52, 352);
+            this.filipino_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.filipino_textbox.Name = "filipino_textbox";
+            this.filipino_textbox.PasswordChar = '\0';
+            this.filipino_textbox.PlaceholderText = "";
+            this.filipino_textbox.SelectedText = "";
+            this.filipino_textbox.ShadowDecoration.Parent = this.filipino_textbox;
+            this.filipino_textbox.Size = new System.Drawing.Size(221, 38);
+            this.filipino_textbox.TabIndex = 8;
+            this.filipino_textbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.filipino_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.filipino_textbox_KeyPress);
+            // 
+            // filipino_label
+            // 
+            this.filipino_label.AutoSize = true;
+            this.filipino_label.BackColor = System.Drawing.Color.Transparent;
+            this.filipino_label.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filipino_label.ForeColor = System.Drawing.Color.White;
+            this.filipino_label.Location = new System.Drawing.Point(52, 322);
+            this.filipino_label.Name = "filipino_label";
+            this.filipino_label.Size = new System.Drawing.Size(86, 25);
+            this.filipino_label.TabIndex = 7;
+            this.filipino_label.Text = "Filipino";
+            // 
+            // science_textbox
+            // 
+            this.science_textbox.BackColor = System.Drawing.Color.Transparent;
+            this.science_textbox.BorderRadius = 18;
+            this.science_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.science_textbox.DefaultText = "";
+            this.science_textbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.science_textbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.science_textbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.science_textbox.DisabledState.Parent = this.science_textbox;
+            this.science_textbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.science_textbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.science_textbox.FocusedState.Parent = this.science_textbox;
+            this.science_textbox.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.science_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.science_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.science_textbox.HoverState.Parent = this.science_textbox;
+            this.science_textbox.Location = new System.Drawing.Point(52, 277);
+            this.science_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.science_textbox.Name = "science_textbox";
+            this.science_textbox.PasswordChar = '\0';
+            this.science_textbox.PlaceholderText = "";
+            this.science_textbox.SelectedText = "";
+            this.science_textbox.ShadowDecoration.Parent = this.science_textbox;
+            this.science_textbox.Size = new System.Drawing.Size(221, 38);
+            this.science_textbox.TabIndex = 6;
+            this.science_textbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.science_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.science_textbox_KeyPress);
+            // 
+            // science_label
+            // 
+            this.science_label.AutoSize = true;
+            this.science_label.BackColor = System.Drawing.Color.Transparent;
+            this.science_label.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.science_label.ForeColor = System.Drawing.Color.White;
+            this.science_label.Location = new System.Drawing.Point(52, 247);
+            this.science_label.Name = "science_label";
+            this.science_label.Size = new System.Drawing.Size(85, 25);
+            this.science_label.TabIndex = 5;
+            this.science_label.Text = "Science";
+            // 
             // math_textbox
             // 
             this.math_textbox.BackColor = System.Drawing.Color.Transparent;
@@ -421,89 +369,141 @@ namespace StudentGradeApplication
             this.math_label.TabIndex = 3;
             this.math_label.Text = "Math";
             // 
-            // next_button3
+            // english_textbox
             // 
-            this.next_button3.BackColor = System.Drawing.Color.Transparent;
-            this.next_button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.next_button3.Image = global::StudentGradeApplication.Properties.Resources.NEXT;
-            this.next_button3.Location = new System.Drawing.Point(68, 475);
-            this.next_button3.Name = "next_button3";
-            this.next_button3.Size = new System.Drawing.Size(179, 80);
-            this.next_button3.TabIndex = 11;
-            this.next_button3.TabStop = false;
-            this.next_button3.Click += new System.EventHandler(this.next_button3_Click);
+            this.english_textbox.BackColor = System.Drawing.Color.Transparent;
+            this.english_textbox.BorderRadius = 18;
+            this.english_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.english_textbox.DefaultText = "";
+            this.english_textbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.english_textbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.english_textbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.english_textbox.DisabledState.Parent = this.english_textbox;
+            this.english_textbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.english_textbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.english_textbox.FocusedState.Parent = this.english_textbox;
+            this.english_textbox.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.english_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.english_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.english_textbox.HoverState.Parent = this.english_textbox;
+            this.english_textbox.Location = new System.Drawing.Point(52, 127);
+            this.english_textbox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.english_textbox.Name = "english_textbox";
+            this.english_textbox.PasswordChar = '\0';
+            this.english_textbox.PlaceholderText = "";
+            this.english_textbox.SelectedText = "";
+            this.english_textbox.ShadowDecoration.Parent = this.english_textbox;
+            this.english_textbox.Size = new System.Drawing.Size(221, 38);
+            this.english_textbox.TabIndex = 2;
+            this.english_textbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.english_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.english_textbox_KeyPress);
             // 
-            // back_button2
+            // english_label
             // 
-            this.back_button2.BackColor = System.Drawing.Color.Transparent;
-            this.back_button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.back_button2.Image = global::StudentGradeApplication.Properties.Resources.back;
-            this.back_button2.Location = new System.Drawing.Point(3, 4);
-            this.back_button2.Name = "back_button2";
-            this.back_button2.Size = new System.Drawing.Size(67, 58);
-            this.back_button2.TabIndex = 12;
-            this.back_button2.TabStop = false;
-            this.back_button2.Click += new System.EventHandler(this.back_button2_Click);
+            this.english_label.AutoSize = true;
+            this.english_label.BackColor = System.Drawing.Color.Transparent;
+            this.english_label.Font = new System.Drawing.Font("Gadugi", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.english_label.ForeColor = System.Drawing.Color.White;
+            this.english_label.Location = new System.Drawing.Point(52, 97);
+            this.english_label.Name = "english_label";
+            this.english_label.Size = new System.Drawing.Size(83, 25);
+            this.english_label.TabIndex = 1;
+            this.english_label.Text = "English";
             // 
-            // pass_or_fail
+            // grades_label
             // 
-            this.pass_or_fail.BackColor = System.Drawing.Color.Transparent;
-            this.pass_or_fail.Image = global::StudentGradeApplication.Properties.Resources.pass;
-            this.pass_or_fail.Location = new System.Drawing.Point(5, 204);
-            this.pass_or_fail.Name = "pass_or_fail";
-            this.pass_or_fail.Size = new System.Drawing.Size(328, 71);
-            this.pass_or_fail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pass_or_fail.TabIndex = 0;
-            this.pass_or_fail.TabStop = false;
+            this.grades_label.BackColor = System.Drawing.Color.Transparent;
+            this.grades_label.Image = global::StudentGradeApplication.Properties.Resources.grades;
+            this.grades_label.Location = new System.Drawing.Point(57, 26);
+            this.grades_label.Name = "grades_label";
+            this.grades_label.Size = new System.Drawing.Size(221, 82);
+            this.grades_label.TabIndex = 0;
+            this.grades_label.TabStop = false;
             // 
-            // first_text_average
+            // next_button2
             // 
-            this.first_text_average.BackColor = System.Drawing.Color.Transparent;
-            this.first_text_average.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.first_text_average.ForeColor = System.Drawing.Color.White;
-            this.first_text_average.Location = new System.Drawing.Point(3, 300);
-            this.first_text_average.Name = "first_text_average";
-            this.first_text_average.Size = new System.Drawing.Size(328, 23);
-            this.first_text_average.TabIndex = 1;
-            this.first_text_average.Text = "The general average of";
-            this.first_text_average.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.next_button2.BackColor = System.Drawing.Color.Transparent;
+            this.next_button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.next_button2.Image = global::StudentGradeApplication.Properties.Resources.NEXT;
+            this.next_button2.Location = new System.Drawing.Point(21, 328);
+            this.next_button2.Name = "next_button2";
+            this.next_button2.Size = new System.Drawing.Size(184, 87);
+            this.next_button2.TabIndex = 3;
+            this.next_button2.TabStop = false;
+            this.next_button2.Click += new System.EventHandler(this.next_button2_Click);
             // 
-            // second_text_average
+            // name_textbox
             // 
-            this.second_text_average.BackColor = System.Drawing.Color.Transparent;
-            this.second_text_average.Font = new System.Drawing.Font("Gadugi", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.second_text_average.ForeColor = System.Drawing.Color.White;
-            this.second_text_average.Location = new System.Drawing.Point(-1, 324);
-            this.second_text_average.Name = "second_text_average";
-            this.second_text_average.Size = new System.Drawing.Size(328, 23);
-            this.second_text_average.TabIndex = 2;
-            this.second_text_average.Text = "Paul Jolou Barrientos is 88.86";
-            this.second_text_average.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.name_textbox.BackColor = System.Drawing.Color.Transparent;
+            this.name_textbox.BorderRadius = 25;
+            this.name_textbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.name_textbox.DefaultText = "";
+            this.name_textbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.name_textbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.name_textbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.name_textbox.DisabledState.Parent = this.name_textbox;
+            this.name_textbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.name_textbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.name_textbox.FocusedState.Parent = this.name_textbox;
+            this.name_textbox.Font = new System.Drawing.Font("Gadugi", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_textbox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(84)))), ((int)(((byte)(82)))));
+            this.name_textbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.name_textbox.HoverState.Parent = this.name_textbox;
+            this.name_textbox.Location = new System.Drawing.Point(32, 260);
+            this.name_textbox.Margin = new System.Windows.Forms.Padding(13, 3, 3, 3);
+            this.name_textbox.Name = "name_textbox";
+            this.name_textbox.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.name_textbox.PasswordChar = '\0';
+            this.name_textbox.PlaceholderText = "";
+            this.name_textbox.SelectedText = "";
+            this.name_textbox.ShadowDecoration.Parent = this.name_textbox;
+            this.name_textbox.Size = new System.Drawing.Size(271, 50);
+            this.name_textbox.TabIndex = 2;
+            this.name_textbox.TextOffset = new System.Drawing.Point(15, 0);
             // 
-            // again_button
+            // pictureBox2
             // 
-            this.again_button.BackColor = System.Drawing.Color.Transparent;
-            this.again_button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.again_button.Image = global::StudentGradeApplication.Properties.Resources.again;
-            this.again_button.Location = new System.Drawing.Point(75, 361);
-            this.again_button.Name = "again_button";
-            this.again_button.Size = new System.Drawing.Size(186, 85);
-            this.again_button.TabIndex = 3;
-            this.again_button.TabStop = false;
-            this.again_button.Click += new System.EventHandler(this.again_button_Click);
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::StudentGradeApplication.Properties.Resources.name;
+            this.pictureBox2.Location = new System.Drawing.Point(32, 176);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(215, 92);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
-            // fourth_panel
+            // back_button1
             // 
-            this.fourth_panel.BackgroundImage = global::StudentGradeApplication.Properties.Resources.bg1;
-            this.fourth_panel.Controls.Add(this.again_button);
-            this.fourth_panel.Controls.Add(this.second_text_average);
-            this.fourth_panel.Controls.Add(this.first_text_average);
-            this.fourth_panel.Controls.Add(this.pass_or_fail);
-            this.fourth_panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fourth_panel.Location = new System.Drawing.Point(0, 0);
-            this.fourth_panel.Name = "fourth_panel";
-            this.fourth_panel.Size = new System.Drawing.Size(334, 561);
-            this.fourth_panel.TabIndex = 13;
+            this.back_button1.BackColor = System.Drawing.Color.Transparent;
+            this.back_button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.back_button1.Image = global::StudentGradeApplication.Properties.Resources.back;
+            this.back_button1.Location = new System.Drawing.Point(32, 96);
+            this.back_button1.Name = "back_button1";
+            this.back_button1.Size = new System.Drawing.Size(75, 54);
+            this.back_button1.TabIndex = 0;
+            this.back_button1.TabStop = false;
+            this.back_button1.Click += new System.EventHandler(this.back_button1_Click);
+            // 
+            // next_button1
+            // 
+            this.next_button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(83)))), ((int)(((byte)(83)))));
+            this.next_button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.next_button1.Image = ((System.Drawing.Image)(resources.GetObject("next_button1.Image")));
+            this.next_button1.Location = new System.Drawing.Point(42, 367);
+            this.next_button1.Name = "next_button1";
+            this.next_button1.Size = new System.Drawing.Size(184, 80);
+            this.next_button1.TabIndex = 1;
+            this.next_button1.TabStop = false;
+            this.next_button1.Click += new System.EventHandler(this.next_button1_Click);
+            // 
+            // welcome_screen
+            // 
+            this.welcome_screen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.welcome_screen.Image = global::StudentGradeApplication.Properties.Resources.opening;
+            this.welcome_screen.Location = new System.Drawing.Point(0, 0);
+            this.welcome_screen.Name = "welcome_screen";
+            this.welcome_screen.Size = new System.Drawing.Size(334, 561);
+            this.welcome_screen.TabIndex = 0;
+            this.welcome_screen.TabStop = false;
             // 
             // StudentGradeForm
             // 
@@ -512,24 +512,25 @@ namespace StudentGradeApplication
             this.ClientSize = new System.Drawing.Size(334, 561);
             this.Controls.Add(this.first_panel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
             this.Name = "StudentGradeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Grade Application";
             this.first_panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.welcome_screen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.next_button1)).EndInit();
             this.second_panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.back_button1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.next_button2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.grades_label)).EndInit();
             this.third_panel.ResumeLayout(false);
             this.third_panel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.next_button3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.back_button2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pass_or_fail)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.again_button)).EndInit();
             this.fourth_panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.again_button)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pass_or_fail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back_button2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.next_button3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grades_label)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.next_button2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.back_button1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.next_button1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.welcome_screen)).EndInit();
             this.ResumeLayout(false);
 
         }
