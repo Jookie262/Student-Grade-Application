@@ -104,6 +104,7 @@ namespace StudentGradeApplication
             this.next_button1.Size = new System.Drawing.Size(184, 80);
             this.next_button1.TabIndex = 1;
             this.next_button1.TabStop = false;
+            this.next_button1.Click += new System.EventHandler(this.next_button1_Click);
             // 
             // second_panel
             // 
@@ -129,6 +130,7 @@ namespace StudentGradeApplication
             this.back_button1.Size = new System.Drawing.Size(75, 54);
             this.back_button1.TabIndex = 0;
             this.back_button1.TabStop = false;
+            this.back_button1.Click += new System.EventHandler(this.back_button1_Click);
             // 
             // pictureBox2
             // 
@@ -179,6 +181,7 @@ namespace StudentGradeApplication
             this.next_button2.Size = new System.Drawing.Size(184, 87);
             this.next_button2.TabIndex = 3;
             this.next_button2.TabStop = false;
+            this.next_button2.Click += new System.EventHandler(this.next_button2_Click);
             // 
             // grades_label
             // 
@@ -229,6 +232,7 @@ namespace StudentGradeApplication
             this.english_textbox.Size = new System.Drawing.Size(221, 38);
             this.english_textbox.TabIndex = 2;
             this.english_textbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.english_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.english_textbox_KeyPress);
             // 
             // third_panel
             // 
@@ -280,6 +284,7 @@ namespace StudentGradeApplication
             this.science_textbox.Size = new System.Drawing.Size(221, 38);
             this.science_textbox.TabIndex = 6;
             this.science_textbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.science_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.science_textbox_KeyPress);
             // 
             // science_label
             // 
@@ -320,6 +325,7 @@ namespace StudentGradeApplication
             this.filipino_textbox.Size = new System.Drawing.Size(221, 38);
             this.filipino_textbox.TabIndex = 8;
             this.filipino_textbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.filipino_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.filipino_textbox_KeyPress);
             // 
             // filipino_label
             // 
@@ -360,6 +366,7 @@ namespace StudentGradeApplication
             this.history_textbox.Size = new System.Drawing.Size(221, 38);
             this.history_textbox.TabIndex = 10;
             this.history_textbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.history_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.history_textbox_KeyPress);
             // 
             // history_label
             // 
@@ -400,6 +407,7 @@ namespace StudentGradeApplication
             this.math_textbox.Size = new System.Drawing.Size(221, 38);
             this.math_textbox.TabIndex = 4;
             this.math_textbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.math_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.math_textbox_KeyPress);
             // 
             // math_label
             // 
@@ -423,6 +431,7 @@ namespace StudentGradeApplication
             this.next_button3.Size = new System.Drawing.Size(179, 80);
             this.next_button3.TabIndex = 11;
             this.next_button3.TabStop = false;
+            this.next_button3.Click += new System.EventHandler(this.next_button3_Click);
             // 
             // back_button2
             // 
@@ -434,6 +443,7 @@ namespace StudentGradeApplication
             this.back_button2.Size = new System.Drawing.Size(67, 58);
             this.back_button2.TabIndex = 12;
             this.back_button2.TabStop = false;
+            this.back_button2.Click += new System.EventHandler(this.back_button2_Click);
             // 
             // pass_or_fail
             // 
@@ -480,6 +490,7 @@ namespace StudentGradeApplication
             this.again_button.Size = new System.Drawing.Size(186, 85);
             this.again_button.TabIndex = 3;
             this.again_button.TabStop = false;
+            this.again_button.Click += new System.EventHandler(this.again_button_Click);
             // 
             // fourth_panel
             // 
