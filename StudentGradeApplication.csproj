@@ -62,7 +62,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StudentGradeForm.resx">
+      <DependentUpon>StudentGradeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +79,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\A+.png" />
+    <Content Include="assets\again.png" />
+    <Content Include="assets\back.png" />
+    <Content Include="assets\bg1.jpg" />
+    <Content Include="assets\bg2.jpg" />
+    <Content Include="assets\creator.png" />
+    <Content Include="assets\failed.png" />
+    <Content Include="assets\grades.png" />
+    <Content Include="assets\name.png" />
+    <Content Include="assets\NEXT.png" />
+    <Content Include="assets\opening.jpg" />
+    <Content Include="assets\pass.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
