@@ -1,16 +1,13 @@
-<center>
-<h1>Student Grade Application</h1>
-<p>Simple C# Winform Program that Calculate the Average of 5 Subjects and Determine if you Pass or Fail</p>
-</center>
+# Student Grade Application 💯
+Simple C# Winform program that computes the average of five subjects (English, Math, Science, Filipino, and History) and determines whether you pass or fail. The program uses **.Net Framework version 4.6.1**.
 
-## Game Screen Shot
+## Screen Shot 📷
 <p float="center">
-	<img src = "screenshot/1.png" width="160">
-	<img src = "screenshot/2.png" width="160">
-	<img src = "screenshot/3.png" width="160">
-	<img src = "screenshot/4.png" width="160">
+	<img src = "screenshot/1.png" width="180">
+	<img src = "screenshot/2.png" width="180">
+	<img src = "screenshot/3.png" width="180">
+	<img src = "screenshot/4.png" width="180">
 </p>
-
 
 ## Contribution 🔥
 
