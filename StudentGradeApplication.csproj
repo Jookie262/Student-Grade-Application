@@ -96,6 +96,7 @@
     <Content Include="assets\name.png" />
     <Content Include="assets\NEXT.png" />
     <Content Include="assets\opening.jpg" />
+    <Content Include="assets\opening2.jpg" />
     <Content Include="assets\pass.png" />
     <Content Include="dll\Guna.UI2.dll" />
   </ItemGroup>

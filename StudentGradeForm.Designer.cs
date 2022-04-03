@@ -498,10 +498,11 @@ namespace StudentGradeApplication
             // welcome_screen
             // 
             this.welcome_screen.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.welcome_screen.Image = global::StudentGradeApplication.Properties.Resources.opening;
+            this.welcome_screen.Image = global::StudentGradeApplication.Properties.Resources.opening2;
             this.welcome_screen.Location = new System.Drawing.Point(0, 0);
             this.welcome_screen.Name = "welcome_screen";
             this.welcome_screen.Size = new System.Drawing.Size(334, 561);
+            this.welcome_screen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.welcome_screen.TabIndex = 0;
             this.welcome_screen.TabStop = false;
             // 
@@ -517,6 +518,7 @@ namespace StudentGradeApplication
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Grade Application";
             this.first_panel.ResumeLayout(false);
+            this.first_panel.PerformLayout();
             this.second_panel.ResumeLayout(false);
             this.third_panel.ResumeLayout(false);
             this.third_panel.PerformLayout();
